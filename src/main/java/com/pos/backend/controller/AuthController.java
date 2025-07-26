@@ -2,7 +2,11 @@ package com.pos.backend.controller;
 
 import com.pos.backend.dto.LoginRequest;
 import com.pos.backend.model.User;
+import com.pos.backend.security.JwtUtil;
 import com.pos.backend.service.AuthService;
+
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -30,7 +34,7 @@ public class AuthController {
         if (!isAuthenticated) {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid email or password");
         }
-        // You can return user details or a JWT token here
-        return ResponseEntity.ok("Login successful");
+        String jwtToken = JwtUtil.generateToken(loginRequest.getEmail());
+        return ResponseEntity.ok(Map.of("token", jwtToken));
     }
 }
