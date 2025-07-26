@@ -19,6 +19,9 @@ public class AuthController {
     @Autowired
     private AuthService authService;
 
+    @Autowired
+    private JwtUtil jwtUtil;
+
     @PostMapping("/register")
     public ResponseEntity<?> register(@RequestBody User user) {
         if (authService.isEmailRegistered(user.getEmail())) {
@@ -34,7 +37,8 @@ public class AuthController {
         if (!isAuthenticated) {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid email or password");
         }
-        String jwtToken = JwtUtil.generateToken(loginRequest.getEmail());
+
+        String jwtToken = jwtUtil.generateToken(loginRequest.getEmail());
         return ResponseEntity.ok(Map.of("token", jwtToken));
     }
 }
