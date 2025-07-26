@@ -2,6 +2,7 @@
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/security/UserDetailsImpl.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/model/Product.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/service/AuthService.java
+/Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/security/JwtUtil.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/config/PasswordConfig.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/model/User.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/service/SaleService.java
@@ -24,16 +25,13 @@
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/dto/SaleRequest.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/repository/SaleRepository.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/config/SecurityConfig.java
-/Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/security/JwtUtils.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/security/UserDetailsServiceImpl.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/config/JwtTokenFilter.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/config/WebSocketConfig.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/controller/SaleController.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/repository/CustomerRepository.java
-/Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/controller/LoginResponse.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/controller/UserController.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/model/SaleItem.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/service/UserService.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/controller/ProductController.java
 /Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/config/CorsConfig.java
-/Users/mohammedfaskath/Desktop/pos-backend-spring/src/main/java/com/pos/backend/controller/LoginRequest.java

@@ -16,9 +16,6 @@ com/pos/backend/config/JwtAuthenticationEntryPoint.class
 com/pos/backend/controller/SaleController.class
 com/pos/backend/model/Product.class
 com/pos/backend/config/JwtTokenFilter.class
-com/pos/backend/security/JwtUtils.class
-com/pos/backend/controller/LoginRequest.class
-com/pos/backend/controller/LoginResponse.class
 com/pos/backend/config/WebSecurityConfig.class
 com/pos/PosBackendApplication.class
 com/pos/backend/controller/ProductController.class
@@ -37,3 +34,4 @@ com/pos/backend/model/StockLog.class
 com/pos/backend/dto/ProductDTO.class
 com/pos/backend/repository/ProductRepository.class
 com/pos/backend/config/WebSocketConfig.class
+com/pos/backend/security/JwtUtil.class

@@ -1,4 +1,5 @@
 package com.pos.backend.dto;
+import com.pos.backend.dto.LoginRequest;
 
 public class LoginRequest {
     private String email;
